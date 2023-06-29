@@ -4,18 +4,18 @@
 #include<conio.h>
 
 
-int main() {
-int number;
+void main() {
+int f;
 
 printf("enter any number :  ");
-scanf("%d",&num);
+scanf("%d",&f);
 printf("Odd numbers from 10 to 1:\n");
 
-    while (num >= 1) {
-        if (num % 2 != 0) {
-            printf("%d\n", num);
+    while (f >= 1) {
+        if (f% 2 != 0) {
+            printf("%d\n", f);
         }
-        num--;
+        f--;
     }
 
 getch();
