@@ -7,12 +7,17 @@ void main(){
 int j;
 int e = 1;
 clrscr();
- printf("enter any number:");
+
+printf("enter any number:");
  scanf("%d",&j);
-do{
- printf("%d\n",e);
- e++;
-}while(e<=j);
+do
+{  
+if(e%2==0){ 
+printf("%d\n",e);
+
+e++;
+
+}while(j>=e);
 
 getch();
 }
